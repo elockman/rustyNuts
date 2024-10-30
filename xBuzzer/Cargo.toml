@@ -1,0 +1,9 @@
+[package]
+name = "xBuzzer"
+Version = "0.1.0"
+authors = ["Eric Lockman <eric@xealstudios.com>"]
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+sysfs_gpio = "0.6"
